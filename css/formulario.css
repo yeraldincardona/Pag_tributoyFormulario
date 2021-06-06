@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: purple ;
+    font-family: sans-serif;
+}
+
+.contenedor_principal{
+    margin: 10% auto;
+    padding: 10px;
+    width: 60vw;
+    height: 170vh;
+    border:  black solid 2px;
+    text-align:left;
+    justify-content: left;
+    border-radius: 10px;
+    background-color: rgb(7, 7, 51);
+}
+.contenedor_principal h1{
+    text-align: center;
+    color: white;
+}
+.contenedor_principal p{
+    color: violet;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.contenedor_form{
+    width: 20vw auto;
+    padding: 60px;
+    height: 130vh;
+    border:violet solid 2px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+.contenedor-input input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+#dropdown {
+    margin-top: 10px;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.radios input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.proyect #proyectos{
+    margin-top: 10px;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.proyect #comentario{
+    margin-top: 20px;
+    width: 40vw;
+    border-radius: 10px;
+}
+
+#submit{
+    margin-top: 20px;
+    width: 40vw;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(88, 8, 88);
+}
+#submit:hover{
+background-color: rgba(0, 0, 0, 0.219) ;
+}
+

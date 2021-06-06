@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+<body>
+    <div class="contenedor_principal">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+<div class="contenedor_form">
+  
+  <form id="survey-form" >
+      <div class="contenedor-input">
+<label id="name-label" for="nombre">Nombre</label>
+<br>
+<input type="text" name="nombre" id="name">
+<br>
+<label id="email-label" for="correo">Correo</label>
+<br>
+<input type="email" name="correo" id="correo">
+<br>
+<label id="number-label" for="number">Edad</label>
+<br>
+<input type="number" name="number" id="number" min="10" max="20" >
+<br>
+</div>
+
+<label for="dropdown">Indique su rol?</label>
+<br>
+<select id="dropdown" name="" >
+    <option value="estudiante">Estudiante</option>
+    <option value="empleado">Empleado</option>
+    <option value="profesional">Profesional</option>
+    <option value="otros">Otros</option>
+</select>
+<br>
+<div class="radios">
+<label for="name">Recomendarias a tus amigos freeCodeCamp</label>
+<br>
+
+<input type="radio" name="name" id="name">
+<label for="name">Definitivamente</label>
+<br>
+<input type="radio" name="name" id="name">
+<label for="name">Tal vez</label>
+<br>
+<input type="radio" name="name" id="name">
+<label for="name">No estoy seguro</label>
+<br>
+</div>
+
+<div class="proyect">
+<label for="proyectos">¿Qué le gustaría ver mejorado? (Marque todo lo que corresponda)</label>
+<br>
+
+<select name="proyectos" id="proyectos">
+    <option value="front-end">Proyectos de front-end</option>
+    <option value="javascript">Proyectos de javascript</option>
+    <option value="css">Proyectos de css</option>
+</select>
+<br>
+<label for="comentario">Comentarios adiconales</label>
+<br>
+<textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Comentario"></textarea>
+<br>
+<button id="submit" >Enviar</button>
+</div>
+  </form>
+</div>
+</div>
+</body>
+</html>
