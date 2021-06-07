@@ -38,6 +38,7 @@ body{
 #tribute-info{
   padding: 20px 100px 20px 100px;
   width: 80vw;
+  line-height:25px;
 }
 
 #tribute-link{
@@ -50,6 +51,7 @@ body{
   height: 80vh;
   text-align: center;
   justify-content: center;
+  line-height:25px;
 }
 .lista h1{
   margin-top: 20px;
@@ -79,14 +81,16 @@ footer{
   background-color: white;
 }
 footer p{
+  width: 80vw;
   margin-top: 20px;
-  padding: 20px;
+  padding: 20px 150px;
+  line-height:25px;
 }
 
 @media (max-width: 600px){
 
 #img-div{
- height:150vh ;
+ height:160vh ;
 }
 
 #image{
@@ -118,7 +122,11 @@ footer p{
   height: 30vh;
 }
 footer{
-  height: 30vh;
+  height: 40vh;
+}
+footer p{
+  padding: 20px 50px;
+  line-height:25px;
 }
 
 }
